@@ -9,6 +9,7 @@ This repo contains the source code and documentation for my TeamBuildr React Red
 ### Run Locally
 
 ```sh
+git clone https://github.com/elvisguillen/teambuildr-app.git
 cd teambuildr-app
 npm install
 npm run start:dev
@@ -25,7 +26,7 @@ Create a React application that interacts with the TeamBuildr API and does the
 
 ## Site Structure
 
-- **/src/app/actions, */reducers, */data** - Redux folders for seperate state management files and concerns, contains Async logic with Axios.
+- **/src/app/actions, /reducers, /data** - Redux folders for seperate state management files and concerns, contains Async logic with Axios.
 - **/src/app/components** - Components for view layer. Pages and layout are in the root folder, components that connect with redux are in "container" and "dumb" components that don't connect are in "presentational".
 - **/src/app/routes** - Route file that initializes all routes, uses connected react router to connect route events with the store automatically.
 - **/src/app/utils** - Basic axios utility files for setting auth token as a html header along with other common headers.
