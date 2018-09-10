@@ -5,6 +5,8 @@ import Layout from './Layout';
 import SubHeader from './presentational/SubHeader';
 import AccountContainer from './container/AccountContainer';
 
+import Reveal from 'react-reveal/Reveal';
+
 const mapStateToProps = state => ({
   ...state.auth
 })
@@ -23,7 +25,7 @@ class Account extends Component {
           background={currentUser ? skin.primary : ''}
         />
         <Container>
-          <Row className='h-100 d-flex flex-grow-1 align-items-center'>
+          <Reveal effect='fadeInUp'>              
             <AccountContainer 
               image={user.pic}
               first={user.first}
@@ -33,7 +35,7 @@ class Account extends Component {
               gender={1}
               border={skin.secondary}
             />
-          </Row>
+          </Reveal>
         </Container>
       </Layout>
 
