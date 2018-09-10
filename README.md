@@ -52,10 +52,11 @@ There were a few cases I ran into while creating this:
 - Tested and built on Google Chrome, responsive but not fully tested on mobile or other browsers.
 
 
-## Roadmap and Future Features
+## Todo
 
 1. If I had more time I'd like to implement GSAP and React Transition Group to animate elements in between page loads.
-2. Adding a spinner that covers the entire application when redux state isLoading is set to true during Async actions.
+2. Add a spinner that covers the entire application when redux state isLoading is set to true during Async actions.
 3. Installing redux-persist to persist redux states so reloads are user friendly.
-4. Reorganizing where Layout is rendered to avoid re rendering sidebar header and content when clicking a link.
-5. A more functional Dashboard with Data Visualization.
+4. Reorganize where Layout is rendered to avoid re rendering sidebar header and content when clicking a link.
+5. Adding error feedback message on Login Page
+6. A more functional Dashboard with data visualization.
