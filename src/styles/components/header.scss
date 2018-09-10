@@ -1,0 +1,41 @@
+.sidebar {
+  width: 130px;
+  height: 100vh;
+  padding: $gutter;
+  .navbar-brand {
+    margin-right: 0px;
+  }
+  .nav-item {
+    width: 100%;
+
+  }
+}
+
+.header {
+  padding: $gutter/2 0px;
+  border-bottom: 1px solid #C7C7C7;
+  .nav {
+    margin-right: $gutter + 10px;
+  }
+  .header-thumb {
+    width: 40px;
+    box-shadow: $image-shadow;
+    margin-right: 25px;
+  }
+  h6 {
+    margin-right: 25px;
+    margin-bottom: 0px;
+  }
+  a {
+    line-height: 1em;
+    .logoff {
+      width: 20px;
+      line-height: 1em;
+    }
+  }
+  
+}
+
+.page-header {
+  height: 300px;
+}

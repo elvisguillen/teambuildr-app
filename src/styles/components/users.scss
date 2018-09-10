@@ -1,0 +1,55 @@
+.users-container {
+  background-color: white;
+  padding: $gutter 50px;
+  border-radius: 4px;
+  box-shadow: $box-shadow;
+}
+
+.header-users {
+  padding: $gutter 0px;
+  .link-filter {
+    margin-right: $gutter / 2;
+    font-family: $font-din;
+    &:last-of-type {
+      margin-right: 0px;
+    }
+  }
+}
+
+
+.card {
+  padding: $gutter;
+  margin-bottom: $gutter;
+  background-image: linear-gradient(-20deg, #fc6076 0%, #ff9a44 100%);
+  border: 0px;
+  color: white;
+  box-shadow: $box-shadow;
+
+  .card-title {
+    font-family: $font-avenir;
+    font-size: 18px;
+  }
+}
+
+.img-circular-border {
+  height: 90px;
+  width: 90px;
+  border: 4px solid white;
+  border-radius: 50%;
+  margin-bottom: $gutter;
+  box-shadow: $image-shadow;
+  .thumb-user {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+  }
+
+  &.large {
+    height: 180px!important;
+    width: 180px!important;
+  }
+  &.account {
+    margin-top: -90px!important;
+  }
+}
